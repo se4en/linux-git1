@@ -42,4 +42,4 @@ set terminal png size 1000,1000;
 set output 'plot.png';
 f(x) = a*x + b;
 fit f(x) '$1' using 12:18 via a,b;
-plot f(x), '$1' using 12:18 ls 7 ps 0.5;"
+plot f(x), '$1' using 12:((column(18) >= -1)?column(18):1/0) ls 7 ps 0.5;"
