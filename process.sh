@@ -21,12 +21,11 @@ END {
 
 awk -F, '
 {
-	if (tolower(substr($2, 1, 11))  == "holiday inn")
+	if ($2 ~ /holiday inn/)
 	{
-		# print($1);
 		val_hinn[tolower($7)] += $12;
 		cnt_hinn[tolower($7)]++;
-	} else if (tolower(substr($2, 1, 6)) == "hilton")
+	} else if ($2 ~ /hilton/)
 	{
 		val_hilton[tolower($7)] += $12;
 		cnt_hilton[tolower($7)]++;
