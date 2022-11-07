@@ -2,11 +2,13 @@
 
 awk -F, '
 {
-	if ($18 > 0)
-		 sum += $18;
+	if ($18 > 0) {
+		sum += $18;
+		cnt++;
+	}
 }
 END {
-	print "RATING_AVG", sum/NR
+	print "RATING_AVG", sum/cnt
 }' $1;
 
 awk -F, '
