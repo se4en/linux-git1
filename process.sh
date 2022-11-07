@@ -2,7 +2,8 @@
 
 awk -F, '
 {
-	 sum += $18
+	if ($18 > 0)
+		 sum += $18;
 }
 END {
 	print "RATING_AVG", sum/NR
@@ -18,15 +19,12 @@ END {
 
 awk -F, '
 {
-#	split($2, hotel_name, "/ /");
-	# print substr($2, 1, 7)
-#	print $2, hotel_name[0], tolower(hotel_name[0]) == "hilton";
-	if (substr($2, 1, 11)  == "holiday inn")
+	if (tolower(substr($2, 1, 11))  == "holiday inn")
 	{
 		# print($1);
 		val_hinn[tolower($7)] += $12;
 		cnt_hinn[tolower($7)]++;
-	} else if (substr($2, 1, 6) == "hilton")
+	} else if (tolower(substr($2, 1, 6)) == "hilton")
 	{
 		val_hilton[tolower($7)] += $12;
 		cnt_hilton[tolower($7)]++;
