@@ -21,11 +21,11 @@ END {
 
 awk -F, '
 {
-	if ($2 ~ /holiday inn/)
+	if (($2 ~ /holiday inn/) && ($12 > 0))
 	{
 		val_hinn[tolower($7)] += $12;
 		cnt_hinn[tolower($7)]++;
-	} else if ($2 ~ /hilton/)
+	} else if (($2 ~ /hilton/) && ($12 > 0))
 	{
 		val_hilton[tolower($7)] += $12;
 		cnt_hilton[tolower($7)]++;
