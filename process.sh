@@ -41,5 +41,5 @@ set datafile separator ',';
 set terminal png size 1000,1000;
 set output 'plot.png';
 f(x) = a*x + b;
-fit f(x) '$1' using 12:18 via a,b;
-plot f(x), '$1' using 12:((column(18) >= 0)?column(18):1/0) ls 7 ps 0.5;"
+fit f(x) '$1' using ((column(12) > 0)?column(12):1/0):((column(18) > 0)?column(18):1/0) via a,b;
+plot f(x), '$1' using ((column(12) > 0)?column(12):1/0):((column(18) > 0)?column(18):1/0) ls 7 ps 0.5;"
