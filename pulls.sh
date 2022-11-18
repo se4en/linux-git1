@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-#GITHUB_TOKEN=$( cat ".github_token")
-GITHUB_TOKEN="FOOBUF"
+GITHUB_TOKEN=$( cat "/home/users/se4en/linux-git1/.github_token")
 
 result='[]'
 i=1
