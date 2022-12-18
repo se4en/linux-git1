@@ -21,6 +21,15 @@ jobs:
       - name: run script
         run: python ./project2/parse.py $(cat ./project2/league.txt)
       
+      - uses: actions/checkout@master
+      - name: send photo message
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: Some updates
+          photo: ./project2/Russia.png
+      
       - name: push results to repo
         run: |
           REMOTE=https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
@@ -29,3 +38,4 @@ jobs:
           git add .
           git commit -m "Add new comment"
           git push ${REMOTE}
+          
