@@ -55,7 +55,7 @@ def train_model(
     kfolds: int,
     stratified: bool,
     shuffle: bool,
-):
+) -> np.ndarray:
     if stratified:
         cv = StratifiedKFold(kfolds, random_state=seed, shuffle=shuffle)
     else:
@@ -78,6 +78,7 @@ def save_results(
     th: float,
     metrics_path: str,
     plot_path: str,
+    seed: int,
 ) -> None:
     y_pred_vals = y_pred > th
 
@@ -87,6 +88,7 @@ def save_results(
                 "recall": recall_score(y, y_pred_vals),
                 "precision": precision_score(y, y_pred_vals),
                 "f1": f1_score(y, y_pred_vals),
+                "seed": seed,
             },
             f,
         )
@@ -119,7 +121,14 @@ def main(cfg: DictConfig) -> None:
         X, y, cfg.train.seed, cfg.train.kfolds, cfg.train.stratified, cfg.train.shuffle
     )
 
-    save_results(preds, y, cfg.report.th, cfg.report.metrics_path, cfg.report.plot_path)
+    save_results(
+        preds,
+        y,
+        cfg.report.th,
+        cfg.report.metrics_path,
+        cfg.report.plot_path,
+        cfg.train.seed,
+    )
 
 
 if __name__ == "__main__":
