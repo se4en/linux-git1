@@ -1,1 +1,1 @@
-trigger act
+trigger action
