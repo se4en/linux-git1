@@ -83,7 +83,7 @@ def save_results(
 ) -> None:
     y_pred_vals = y_pred > th
 
-    os.remove(metrics_path)
+    # os.remove(metrics_path)
     with open(metrics_path, "w") as f:
         json.dump(
             {
@@ -111,7 +111,7 @@ def save_results(
     plt.xlabel("False positive rate", fontsize=16)
     plt.ylabel("True positive rate", fontsize=16)
     plt.legend(loc="lower right")
-    os.remove(plot_path)
+    # os.remove(plot_path)
     plt.savefig(plot_path, dpi=300)
 
 
