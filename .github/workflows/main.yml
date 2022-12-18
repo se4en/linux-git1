@@ -22,6 +22,8 @@ jobs:
 
       - name: run script
         run: python ./project2/model.py
+        if: success() || failure()
+        
       
       - uses: actions/checkout@master
       - name: send plot
