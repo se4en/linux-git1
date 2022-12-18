@@ -31,8 +31,7 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: ROC-curve for new model
           photo: ./project2/roc_auc.png
-      
-      - uses: actions/checkout@master
+          
       - name: send metrics
         uses: appleboy/telegram-action@master
         with:
