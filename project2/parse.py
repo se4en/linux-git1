@@ -70,7 +70,7 @@ def parse_league(league_name: str) -> bool:
     if league_name not in LEAGUES:
         return False
 
-    params = {"antisports": 198}
+    # params = {"antisports": 198}
     headers = {
         "Accept": "*/*",
         "DNT": "1",
@@ -86,7 +86,7 @@ def parse_league(league_name: str) -> bool:
     #     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15",
     # }
 
-    response = requests.get(LEAGUES[league_name], params=params, headers=headers)
+    response = requests.get(LEAGUES[league_name], headers=headers)
     soup = BeautifulSoup(response.text, "lxml")
 
     # with urllib.request.urlopen(LEAGUES[league_name]) as url:
