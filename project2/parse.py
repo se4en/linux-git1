@@ -5,11 +5,18 @@ import os
 from time import sleep
 from typing import Any, Dict, List, Optional, Tuple
 
+import urllib.request
 import requests
 import json
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 import seaborn as sns
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 LEAGUES = {
@@ -63,15 +70,45 @@ def parse_league(league_name: str) -> bool:
     if league_name not in LEAGUES:
         return False
 
-    response = requests.get(LEAGUES[league_name])
-    soup = BeautifulSoup(response.text, "lxml")
+    # response = requests.get(LEAGUES[league_name])
+    # soup = BeautifulSoup(response.text, "lxml")
+
+    with urllib.request.urlopen(LEAGUES[league_name]) as url:
+        html = url.read()
+    soup = BeautifulSoup(html, "lxml")
 
     with open("result.txt", "w") as f:
         f.write("".join(map(str, soup.contents)))
 
+    # driver = webdriver.Firefox()
+
+    # driver.set_page_load_timeout(5)
+
+    # driver.get(LEAGUES[league_name])
+
     # all_matches = json.loads(
     #     "".join(soup.find("script", {"type": "application/ld+json"}).contents)
     # )
+
+    # all_matches = json.loads(
+    #     "".join(
+    #         driver.find_element(
+    #             By.XPATH, "//script[@type='application/ld+json']"
+    #         ).contents
+    #     )
+    # )
+    # with open("result.txt", "w") as f:
+    #     f.write(driver.page_source)
+
+    # timeout = 5
+    # try:
+    #     element_present = EC.presence_of_element_located(
+    #         (By.XPATH, "//script[@type='application/ld+json']")
+    #     )
+    #     WebDriverWait(driver, timeout).until(element_present)
+    # except TimeoutException:
+    #     print("Timed out waiting for page to load")
+    # driver.find_element_by_xpath("//input[@type='file']")
 
     # teams_names, team_chanses = process_matches(all_matches)
 
