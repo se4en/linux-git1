@@ -21,7 +21,7 @@ jobs:
           pip install -r ./project2/requirements.txt
 
       - name: run script
-        run: python ./project2/main.py
+        run: python ./project2/model.py
       
       - uses: actions/checkout@master
       - name: send photo message
