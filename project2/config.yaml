@@ -4,7 +4,7 @@ data:
   target: 3
   retro: true
 train:
-  seed: 3684567
+  seed: 8435773
   kfolds: 5
   stratified: true
   shuffle: true
