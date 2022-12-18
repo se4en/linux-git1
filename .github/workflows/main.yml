@@ -2,7 +2,7 @@ name: project2
 on:
   push:
     paths:
-    - './project2/league.txt'
+    - '**.txt'
   status: {}
 jobs:
   project2:
