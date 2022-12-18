@@ -24,8 +24,6 @@ jobs:
         run: python ./project2/model.py
         if: success() || failure()
         
-      
-      - uses: actions/checkout@master
       - name: send plot
         uses: appleboy/telegram-action@master
         with:
