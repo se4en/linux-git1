@@ -81,7 +81,7 @@ def parse_league(league_name: str) -> bool:
 
 if __name__ == "__main__":
     with open("status.txt", "w") as f:
-        if parse_league("Russia"):
+        if parse_league(sys.argv[1]):
             f.write("success")
         else:
             f.write("error")
