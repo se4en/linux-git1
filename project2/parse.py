@@ -20,7 +20,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 LEAGUES = {
-    "Russia": "https://1xstavka.ru/line/football/225733-russia-premier-league",
+    # "Russia": "https://1xstavka.ru/line/football/225733-russia-premier-league",
+    "Russia": "https://www.fon.bet/sports/football/11935/",
     # "England": "https://1xstavka.ru/line/Football/88637-England-Premier-League/",
     # "France": "https://1xstavka.ru/line/Football/12821-France-Ligue-1/",
     # "Germany": "https://1xstavka.ru/line/Football/96463-Germany-Bundesliga/",
@@ -71,14 +72,14 @@ def parse_league(league_name: str) -> bool:
         return False
 
     # params = {"antisports": 198}
-    headers = {
-        "Accept": "*/*",
-        "DNT": "1",
-        "Referer": LEAGUES[league_name],
-        "Sec-Fetch-Mode": "cors",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36",
-        "X-Requested-With": "XMLHttpRequest",
-    }
+    # headers = {
+    #     "Accept": "*/*",
+    #     "DNT": "1",
+    #     "Referer": LEAGUES[league_name],
+    #     "Sec-Fetch-Mode": "cors",
+    #     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36",
+    #     "X-Requested-With": "XMLHttpRequest",
+    # }
     # headers = {
     #     "Accept-Language": "en-GB,en;q=0.9",
     #     "Upgrade-Insecure-Requests": 1,
@@ -86,7 +87,10 @@ def parse_league(league_name: str) -> bool:
     #     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15",
     # }
 
-    response = requests.get(LEAGUES[league_name], headers=headers)
+    # response = requests.get(LEAGUES[league_name], headers=headers)
+    # soup = BeautifulSoup(response.text, "lxml")
+
+    response = requests.get(LEAGUES[league_name])
     soup = BeautifulSoup(response.text, "lxml")
 
     # with urllib.request.urlopen(LEAGUES[league_name]) as url:
