@@ -1,0 +1,179 @@
+html<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta content="" name="description"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="noindex, nofollow" name="robots"/>
+<meta content="3906366cab1f0ec922d094faeffd27a4" name="interkassa-verification"/>
+<title>Доступ к сайту ограничен</title>
+<link href="https://cdn.1xstavka.ru/genfiles/cms/pg/44/images/9c5badaf8162549c2abca8a57701f24a.ico" rel="icon"/>
+<meta content="index, follow" name="robots"/>
+<link href="/genfiles/cms/pg/44/images/9c5badaf8162549c2abca8a57701f24a.ico" rel="icon"/>
+<link href="/genfiles/cms/pg/44/images/9c5badaf8162549c2abca8a57701f24a.ico" rel="shortcut icon"/>
+<script type="text/javascript">var SUPPORT_MULTI_ACCOUNTS = true;var SUPPORT_MULTI_ACCOUNTS_POPUP_VISIBLE = true;var SN1 = 'ggru';var SN2 = '_grant_';var SN3 = '_glhf';var ENV_SVC = 'default';var GGRU = 209;var _GRANT_1671390723 = 'ml8834116';var MAIN_CDN = 'https://cdn.1xstavka.ru';var CLOUD_CDN = 'https://cdn.1xstavka.ru';var CURRENT_IP = '20.9.195.211';var AUTH_DICTIONARY = {"auth_or":"или","auth_user_login_phone":"Ваш телефон","auth_user_login_id_email":"ID или Email","auth_your_login_id_email":"Ваш E-mail или ID","auth_user_login_id_email_2":"E-mail или ID","auth_your_login_id":"Ваш ID или логин","auth_user_login_all":"Ваш E-mail, ID или логин","auth_user_login_id":"Ваш ID","auth_user_login_email":"Ваш E-mail","auth_your_username":"Ваш E-mail, ID или логин","auth_user_login":"Ваш логин","auth_user_pass":"Пароль","auth_remember_user":"Запомнить","auth_remember_user_me":"Запомнить меня","auth_forgot_pass":"Забыли пароль?","auth_enter":"Войти","auth_types_desc":"Вы можете авторизоваться на сайте через:","auth_enter_otp":"Вход по OTP","auth_phone_number":"Телефон без кода страны","auth_send_code":"Отправить код","auth_send_code_desc":"На этот телефон будет выслан код, который необходимо ввести для входа на сайт.","auth_input_code":"Введите код","auth_in":"Вход","auth_input_code_desc":"На номер {phoneNum} отправлен код для авторизации.","auth_two_step":"Двухфакторная авторизация","auth_two_step_description":"Для подтверждения входа введите код из Google Authenticator","auth_show_password":"Показать пароль","auth_hide_password":"Скрыть пароль","auth_qr_code_title":"Авторизация по QR коду","auth_qr_code_text":"Чтобы авторизоваться, отсканируйте QR код с помощью мобильного телефона","auth_qr_code_refresh":"Обновить qr","social_title":"Выберите социальную сеть","social_gp":"Google","social_vk":"ВКонтакте","social_ok":"Одноклассники","social_ya":"Яндекс","social_mr":"Mail.ru","social_tg":"Telegram","social_fb":"Facebook","social_tw":"Twitter","auth_allow":"Разрешить","auth_disallow":"Отклонить","auth_logout":"Выйти","auth_authorize":"Авторизация","auth_not_register_yet":"Еще не зарегистрированы?","auth_go_to_registration":"Зарегистрироваться","auth_enter_form":"Вход через форму","auth_enter_sms":"Вход по SMS","auth_enter_qr":"Авторизация по QR","auth_phone_label":"Введите телефон","auth_sms_code":"Введите код","auth_repeat_code_sending":"Отправить повторно через","auth_minutes":"мин.","auth_send_sms":"Отправить смс","auth_sms_didnt_receive":"Не пришло СМС?","auth_input_sms_code":"0000 0000","auth_required_field":"Обязательное поле","auth_incorrect_code":"Неверный код","empty_login_pass":"Для входа в личный кабинет, введите, пожалуйста, ваш логин и пароль.","empty_sms_phone":"Для входа в личный кабинет, введите телефон для получения кода авторизации по SMS","empty_sms_code":"Для входа в личный кабинет, введите код авторизации из SMS","empty_two_factor_code":"Для входа в личный кабинет, введите код авторизации","captcha_disclaimer":"Данный сайт защищён reCAPTCHA; {0} Политика Конфиденциальности{1} и {2}Пользовательское соглашение{3} компании Google остаются в силе.","identification":"Идентификация","ident_simplified":"Упрощенная идентификация","ident_full":"Полная","ident_other":"Другое","ident_fast":"Данные ЕДИНОГО ЦУПИС","ident_warning_inf":"Заполнять строго в соответствии с паспортом, сокращения не допускаются","ident_passport":"Номер и серия паспорта","ident_date_passport":"Дата выдачи паспорта","ident_unit_code":"Код подразделения","ident_passport_issued":"Паспорт выдан","ident_place_of_birth":"Место рождения","ident_date_birth":"Дата рождения","ident_gender_man":"Мужской","ident_gender_woman":"Женский","ident_registration_address":"Адрес постоянной регистрации (последняя прописка в паспорте)","ident_inn":"ИНН (номер налогоплательщика)","ident_snils":"СНИЛС (номер пенсионного страхования)","ident_send":"Отправить данные","ident_pps":"Проверка документов через \"ППС\"","ident_how_to":"Для совершения ставок пройдите идентификацию:","ident_how_to_1":"Возьмите паспорт и отправляйтесь в {0}ближайший ППС.{1}","ident_how_to_2":"Скажите кассиру, что Вам необходимо пройти \"Идентификацию В ЕДИНОМ ЦУПИС\".","ident_how_to_3":"Подайте кассиру паспорт. Назовите номер телефона, который Вы использовали при регистрации аккаунта в БК {name}.","ident_how_to_4":"Проверьте документ, предоставленный кассиром, подпишите его и отдайте кассиру.","ident_how_to_5":"При первом депозите, если у Вас нет еще аккаунта в ЕДИНОМ ЦУПИС, то будет предложено зарегистрироваться","ident_contact_check":"Проверка документов через \"CONTACT\"","ident_contact_how_to":"Для совершения ставок пройдите идентификацию:","ident_contact_how_to_1":"Возьмите паспорт и отправляйтесь в {0}ближайшее отделение{1} платёжной системы CONTACT.","ident_contact_how_to_2":"Скажите кассиру, что вы пришли оплатить услугу «Идентификация для «Мобильной карты» (код услуги MCDI). Стоимость услуги — {0} руб.*","ident_contact_how_to_3":"Назовите номер телефона, который вы указывали при регистрации.","ident_contact_how_to_4":"Покажите паспорт. Кассир введет данные и распечатает заявление с паспортными данными и номером телефона.","ident_contact_how_to_5":"Проверьте заявление: если что-то не так, попросите исправить. Если всё правильно — подпишите. Сохраняйте квитанцию об оплате, пока не отправите успешный перевод через Единый ЦУПИС.","ident_contact_how_to_6":"комиссия системы CONTACT — {0} руб., комиссия ООО НКО «Мобильная карта» — {1} руб.","ident_cupis_check":"Обнаружены данные пользователя в ЕДИНОМ ЦУПИС:","ident_cupis_info":"Если ранее, Вы уже проходили \"Идентификацию В ЕДИНОМ ЦУПИС\", пожалуйста, введите код высланный Вам в смс сообщении","ident_cupis_btn_send":"Подтвердить","ident_region":"Регион","ident_locality":"Район","ident_town":"Город","ident_inhabited_locality":"Населенный пункт","ident_street":"Улица","ident_home":"Дом","ident_apartment":"Квартира","ident_housing":"Корпус","ident_structure":"Строение","ident_firstname":"Имя","ident_lastname":"Фамилия","ident_patronymic":"Отчество","banner_title":"Пройди идентификацию онлайн {br} Это быстро и просто!","ident_gosuslug":"ГОСУСЛУГИ","ident_gosuslug_title":"Пройти идентификацию через сайт ГОСУСЛУГ","ident_gosuslug_text":"Для прохождения идентификации с использованием портала Госуслуг вы должны иметь верифицированную учетную запись на сайте www.gosuslugi.ru","ident_pass":"Пройти идентификацию","consult_сonnect":"Помощь","resend_sms_time":"Возможно через {blockTimer}","resend_sms":"Отправить повторно","auth_by_email":"По E-mail","auth_by_phone":"По телефону","auth_by_social":"Соцсети","auth_by_sms":"По SMS"};var PENALTY_MINI_GAME = {"step_index_label":"Ваш купон {0} выиграл!","step_index_label2":"Хотите рискнуть суммой выигрыша и сыграть на удвоение?","step_index_bet_sum":"Сумма ставки {0}","step_index_accept":"Сыграть на удвоение","step_index_decline":"Отказаться","step_index_rule_label":"Условия игры","step_index_rules":"Игра на удвоение, проходит на реальные деньги с вашего счета в букмекерской конторе 1хСтавка. В случае проигрыша в игре на удвоение, деньги списываются с Вашего счета. В случае победы, ставка удваивается и деньги зачисляются на Ваш счет.","step_index_rules2":"Пользователь выбирает роль игры между \"Вратарь\" и \"Нападающий\".","step_index_rules3":"При выборе \"Вратарь\" пользователь должен выбрать в какой угол прыгнуть чтобы отбить мяч, \"влево\" или \"вправо\".","step_index_rules4":"- Если мяч отбит успешно, пользователь получает удвоение своей ставки.","step_index_rules5":"- Если мяч пропущен, пользователь  проигрывает ставку.","step_index_rules6":"При выборе \"Нападающий\" пользователь должен выбрать в какой угол ворот ударить, \"левый\" или \"правый\".","step_index_rules7":"- Если мяч отбит вратарем успешно, пользователь проигрывает ставку.","step_index_rules8":"- Если мяч пропущен вратарем, пользователь получает удвоение своей ставки.","step_index_rules9":"Максимальная сумма выигрыша составляет {0}","step_player_type_choose_side":"Выберите сторону","step_player_type_forward":"Нападающий","step_player_type_goalkeeper":"Вратарь","step_kick_side_choose_side":"Выберите зону удара","step_bet_success":"Поздравляем с победой!","step_bet_success_desc":"Вы выиграли {0}","step_bet_fail":"Возможно, вам повезет в следующий раз","step_bet_fail_desc":"Вы проиграли {0}","step_bet_want_more":"Хотите сыграть еще?","step_double_bet_want_more":"Хотите удвоить ставку и сыграть еще?","step_bet_accept":"Cыграть еще","step_bet_decline":"Отказаться"};var BLOCK_STUB_DICTIONARY = {"ok":"ОК","close":"Закрыть","enter_phone":"Введите номер телефона","your_phone":"Ваш телефон","errorServer":"Ошибка сервера. Повторите запрос позднее.","error":"Ошибка","confirm_not_robot":"Подтвердите, что вы не робот!","block_stub_county_block":"Данный сайт недоступен в вашей стране.","block_stub_county_block_usa":"This Website is prohibited in the USA.","block_stub_access_denied":"Доступ ограничен","block_stub_send":"Отправить","block_stub_access_in_cms":"Для предпросмотра сайта используйте ваш аккаунт в 1XCMS","block_stub_access_message":"Бренд находится в процессе получения национальной лицензии. Доступ к продукту остановлен, это займет некоторое время.","block_stub_access_message_1":"Приносим свои извинения и просим оставить Ваш E-mail для обратной связи с Вами.","block_stub_access_message_2":"Бренд находится в процессе получения национальной лицензии. Доступ к продукту временно остановлен, это займет некоторое время.","block_stub_access_message_3":"You can try to use VPN to gain an access to {name}.","block_stub_access_not_support":"В рамках обновления технического оборудования и программного обеспечения, данное устройство не поддерживается с 02.01.2020.","block_stub_guest":"Уважаемые посетители!","block_stub_login_email":"Ваш E-mail","block_stub_coming_soon":"Скоро открытие","block_stub_copyright":"«{name}» © All rights reserved","block_stub_domain":"Доступ к сайту ограничен","block_stub_access_message_by":"В соответствии с Указом Президента РБ от 7 августа 2018 года №305 , в целях обеспечения соблюдения лицензионных требований и условий, предъявляемых при содержании букмекерской конторы, ЧП «Ставка-Бет» приостанавливает с 01.04.2021 года деятельность по содержанию букмекерской конторы с использованием глобальной компьютерной сети Интернет до внесения соответствующих изменений в лицензию. Выплаты по ставкам, сделанным до 01.04.2021 года, клиенты ЧП «Ставка-Бет» смогут получить через терминалы ББП, Webmoney или наличными в кассе БК по адресу : Минск, Скрыганова, 6А, пом.8, офис 1 ( 2 этаж). Администрация.","block_stub_access_contact_by":"Телефон для обращений: +375 17 204 70-56","block_stub_access_kassa_by":"Касса БК: stavka-bet@mail.ru; Телефон: +375 17 256 18 01","block_stub_county_block_kz":"Сайт 1xbet.kz принадлежит и управляется компанией ТОО \"Букмекерская компания \"1xbet.kz\". Лицензия №20019314 от 25 декабря 2020 года, выданная ГУ \"Комитет индустрии туризма Министерства культуры и спорта Республики Казахстан\". Министерство культуры и спорта Республики Казахстан. Все права защищены и охраняются законом.","block_stub_sorry":"Приносим свои извинения. С уважением, команда 1хСтавка.","block_stub_message_1":"Уважаемые посетители 1xstavka.ru!","block_stub_command_message":"С уважением, команда 1хСтавка"};var BLOCK_STUB_SITE_UPDATE = '1xstavka.ru <span class="block-country__highlight">обновляется</span>';var COMPANY_LOGO_HEADER_URL = '/genfiles/cms/pg/44/images/f7bf77375ef2d8ad1cccd1bd4470a798.svg';var COMPANY_NAME = '1хСтавка';var PARAMS = {"is_usa_block":true,"is_block_licence":false,"other_lock_img":"","is_other_design":false,"email_status":null,"type":"COUNTRY","email_message":"Введён некорректный E-mail","down_message":"Приносим свои извинения и просим оставить Ваш E-mail для обратной связи с Вами.","block_image":"","coming_soon_messages":["Скоро открытие"],"under_construction_messages":["Сайт находится в разработке. Оставайтесь на связи!"]};var GROUP_ID = 44;var COUNTRY = 'us';var PARTNER_LICENSE = '""';var SOCIAL_LINKS = {"vkontakte":"https:\/\/vk.com\/bk_1xstavka","twitter":"https:\/\/twitter.com\/bk_1xstavka","telegram":"https:\/\/t.me\/bk_1xstavkaa"};var SUPPORT_EMAIL = 'support@1xstavka.ru';var WITH_SUPPORT_EMAIL = false;</script>
+<link href="https://1xstavka.ru/line/football/225733-russia-premier-league" hreflang="x-default" rel="alternate"/>
+<link href="https://1xstavka.ru/az/line/football/225733-russia-premier-league" hreflang="az" rel="alternate"/>
+<link href="https://1xstavka.ru/de/line/football/225733-russia-premier-league" hreflang="de" rel="alternate"/>
+<link href="https://1xstavka.ru/en/line/football/225733-russia-premier-league" hreflang="en" rel="alternate"/>
+<link href="https://1xstavka.ru/es/line/football/225733-russia-premier-league" hreflang="es" rel="alternate"/>
+<link href="https://1xstavka.ru/fr/line/football/225733-russia-premier-league" hreflang="fr" rel="alternate"/>
+<link href="https://1xstavka.ru/lv/line/football/225733-russia-premier-league" hreflang="lv" rel="alternate"/>
+<link href="https://1xstavka.ru/pt/line/football/225733-russia-premier-league" hreflang="pt" rel="alternate"/>
+<link href="https://1xstavka.ru/ro/line/football/225733-russia-premier-league" hreflang="ro" rel="alternate"/>
+<link href="https://1xstavka.ru/ru/line/football/225733-russia-premier-league" hreflang="ru" rel="alternate"/>
+<link href="https://1xstavka.ru/tr/line/football/225733-russia-premier-league" hreflang="tr" rel="alternate"/>
+<link href="https://1xstavka.ru/uz/line/football/225733-russia-premier-league" hreflang="uz" rel="alternate"/>
+<script src="https://cdn.1xstavka.ru/bundle/library/vendor.e56fd011222274497557.js" type="text/javascript"></script>
+</head>
+<body>
+<script src="https://cdn.1xstavka.ru/genfiles/web-app-v2/dictionary/prod/main/ru/dictionary_1f056c958a54bd8c988b82a74a82d4c4.js" type="text/javascript"></script>
+<noscript id="disable_adblock_notification">
+<style>
+        .ab-notification {
+            position: fixed;
+            background: hsla(212, 62%, 12%, 0.5);
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            font-family: 'Roboto', 'Roboto Local', Arial, sans-serif;
+            z-index: 99999;
+        }
+
+        .ab-notification * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .ab-notification__inner {
+            position: relative;
+            background: hsl(0, 0%, 100%);
+            -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+            border-radius: 3px;
+            font-size: 14px;
+            line-height: 22px;
+            padding: 30px 40px 40px;
+            max-width: 595px;
+        }
+
+        .ab-notification-button {
+            background: none;
+            border: none;
+            padding: 20px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            outline: none;
+            cursor: pointer;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .ab-notification-button__svg {
+            fill: hsla(205, 69%, 41%, 0.5);
+            width: 12px;
+            height: 12px;
+        }
+
+        .ab-notification__title,
+        .ab-notification__subtitle {
+            color: hsl(206, 67%, 31%);
+            text-align: center;
+            margin: 0;
+        }
+
+        .ab-notification__title {
+            font-size: 18px;
+        }
+
+        .ab-notification__subtitle {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .ab-notification__description {
+            margin: 20px 0 7px;
+        }
+
+        .ab-notification-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            counter-reset: list;
+        }
+
+        .ab-notification-list__item:not(:first-child) {
+            margin-top: 10px;
+        }
+
+        .ab-notification-list__item {
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .ab-notification-list__item::before {
+            counter-increment: list;
+            content: counter(list)')';
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .ab-notification-list__ico {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        .ab-notification-list__svg {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+<div class="ab-notification">
+<div class="ab-notification__inner">
+<h2 class="ab-notification__title">У вас включено расширение браузера Adblock!</h2>
+<p class="ab-notification__description">На нашем сайте нет рекламы, поэтому для продолжения корректной работы выполните следующие шаги:</p>
+<ol class="ab-notification__list ab-notification-list">
+<li class="ab-notification-list__item">
+<span class="ab-notification-list__text">Нажмите на иконку <strong>Adblock</strong> на верхней панели браузера</span>
+<i class="ab-notification-list__ico">
+<svg class="ab-notification-list__svg" fill="#F40D12" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.8 0a1.8 1.8 0 00-1.3.5l-6 6A1.8 1.8 0 000 7.8v8.4c0 .5.2 1 .5 1.3l6 6a1.8 1.8 0 001.3.5h8.4a1.8 1.8 0 001.3-.5l6-6a1.8 1.8 0 00.5-1.3V7.8a1.8 1.8 0 00-.5-1.3l-6-6a1.8 1.8 0 00-1.3-.5zm4.4 3c1 0 1 1.1 1 1.1V11s0 .2.1.2c.2 0 .2-.2.2-.2V5.3s0-1 1-1 1 1 1 1V13c.2 0 1-2 1-2s.5-1.6 2.6-1.2l-.2.7-2.3 6.6s-1 3.6-4.9 3.6c-5 0-4.8-5.4-4.8-5.4V7.6s0-1 .9-1 .8 1 .8 1V11s0 .2.2.2.2-.2.2-.2V5.2s0-1.1 1-1.1 1 1.1 1 1.1v5.6s0 .2 0 .2c.2 0 .2-.2.2-.2V4.1s0-1.1 1-1.1z"></path>
+</svg>
+</i>
+</li>
+<li class="ab-notification-list__item">
+<span class="ab-notification-list__text">Выберите пункт <strong>"Не использовать на страницах этого сайта"</strong> и отключите расширение для нашего сайта</span>
+</li>
+</ol>
+<h3 class="ab-notification__subtitle">Удачных побед и больших выигрышей!</h3>
+</div>
+</div>
+</noscript>
+<div id="block_app"></div>
+<link href="https://cdn.1xstavka.ru/styles/css/block-country/main.fedbd088cbda18f3c822d79a8809578f.css" rel="stylesheet" type="text/css"/>
+<link href="https://cdn.1xstavka.ru/bundle/app/Application/Desktop/application.95b0492b60371aeac5d5.css" rel="stylesheet" type="text/css"/>
+<script src="/bundle/app/Default/Desktop/cdnChecker.df326db93ab2f308a50e.bundle.js" type="text/javascript"></script>
+<script src="https://cdn.1xstavka.ru/bundle/app/Application/Desktop/application.78ea5494aa6e1c27dd62.bundle.js" type="text/javascript"></script>
+<a class="admiral-ackbar" href="/itsatrap?" style="display:none; visibility:hidden"></a></body>
+</html>
