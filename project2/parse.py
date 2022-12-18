@@ -70,12 +70,17 @@ def parse_league(league_name: str) -> bool:
     if league_name not in LEAGUES:
         return False
 
-    # response = requests.get(LEAGUES[league_name])
-    # soup = BeautifulSoup(response.text, "lxml")
+    headers = {
+        "Accept-Language": "en-GB,en;q=0.9",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15",
+    }
 
-    with urllib.request.urlopen(LEAGUES[league_name]) as url:
-        html = url.read()
-    soup = BeautifulSoup(html, "lxml")
+    response = requests.get(LEAGUES[league_name], headers=headers)
+    soup = BeautifulSoup(response.text, "lxml")
+
+    # with urllib.request.urlopen(LEAGUES[league_name]) as url:
+    #     html = url.read()
+    # soup = BeautifulSoup(html, "lxml")
 
     with open("result.txt", "w") as f:
         f.write("".join(map(str, soup.contents)))
