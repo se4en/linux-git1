@@ -66,15 +66,16 @@ def parse_league(league_name: str) -> bool:
     response = requests.get(LEAGUES[league_name])
     soup = BeautifulSoup(response.text, "lxml")
 
-    all_matches = json.loads(
-        "".join(soup.find("script", {"type": "application/ld+json"}).contents)
-    )
+    with open("result.txt", "w") as f:
+        f.write("".join(map(str, soup.contents)))
 
-    teams_names, team_chanses = process_matches(all_matches)
+    # all_matches = json.loads(
+    #     "".join(soup.find("script", {"type": "application/ld+json"}).contents)
+    # )
 
-    plot_bar(teams_names, team_chanses, f"{league_name}.png")
-    # print(teams_names)
-    # print(team_chanses)
+    # teams_names, team_chanses = process_matches(all_matches)
+
+    # plot_bar(teams_names, team_chanses, f"{league_name}.png")
 
     return True
 
