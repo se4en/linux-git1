@@ -1,0 +1,21 @@
+data:
+  path: ./project2/data.csv
+  features:
+  - f_1
+  - f_2
+  - f_3
+  - f_4
+  - f_5
+  - f_6
+  - f_7
+  target: 3
+  retro: true
+train:
+  seed: 384538
+  kfolds: 5
+  stratified: true
+  shuffle: true
+report:
+  metrics_path: ./project2/metrics.json
+  plot_path: ./project2/roc_auc.png
+  th: 0.1
