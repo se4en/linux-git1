@@ -2,7 +2,9 @@ name: project2
 on:
   push:
     paths:
-    - '**.txt'
+    - '**.py'
+    - '**.csv'
+    - '**.yaml'
   status: {}
 jobs:
   project2:
@@ -19,7 +21,7 @@ jobs:
           pip install -r ./project2/requirements.txt
 
       - name: run script
-        run: python ./project2/parse.py $(cat ./project2/league.txt)
+        run: python ./project2/main.py
       
       - uses: actions/checkout@master
       - name: send photo message
@@ -27,8 +29,9 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: Some updates
-          photo: ./project2/Russia.png
+          message: Metrics for new model
+          photo: ./project2/roc_auc.png
+          document: ./project2/metrics.json
       
       - name: push results to repo
         run: |
