@@ -24,16 +24,24 @@ jobs:
         run: python ./project2/model.py
       
       - uses: actions/checkout@master
-      - name: send photo message
+      - name: send plot
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: ROC-curve for new model
+          photo: ./project2/roc_auc.png
+      
+      - uses: actions/checkout@master
+      - name: send metrics
         uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: Metrics for new model
-          photo: ./project2/roc_auc.png
           document: ./project2/metrics.json
       
-      - name: push results to repo
+      - name: push metrics
         run: |
           REMOTE=https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git config user.email "${{ github.actor }}@users.noreply.github.com"
