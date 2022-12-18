@@ -19,7 +19,7 @@ jobs:
           pip install -r ./project2/requirements.txt
 
       - name: run script
-        run: python -m ./project2/parse $(cat ./project2/league.txt)
+        run: python ./project2/parse.py $(cat ./project2/league.txt)
       
       - name: push results to repo
         run: |
